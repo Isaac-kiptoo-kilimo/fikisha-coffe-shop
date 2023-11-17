@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 120px;
+    padding: 0 20px;
+  }
+  
+  .header img.logo {
+    height: 60px; 
+    width: auto;
+  }
+  
+  .header .example-spacer {
+    flex: 1;
+  }
+  
+  .header .menu_desktop {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header .menu_desktop button {
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333D4B;
+  }
+  
+  .header .menu_mobile {
+    display: none;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .header .menu_desktop {
+      display: none; 
+    }
+  
+    .header .menu_mobile {
+      display: flex;
+      align-items: center;
+    }
+  
+    .header .menu_mobile button.mat-icon-button {
+      color: #333D4B;
+      font-size: 24px;
+    }
+  
+    .header .menu_mobile #matMenu {
+      display: none; /* Hide menu items by default */
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    }
+  
+    .header .menu_mobile #matMenu button.mat-menu-item {
+      font-family: Barlow;
+      font-size: 14px;
+      font-weight: 700;
+      color: #333D4B;
+    }
+  
+    .header .menu_mobile:hover #matMenu {
+      display: block; /* Show menu items on hover */
+    }
+  }
+  
