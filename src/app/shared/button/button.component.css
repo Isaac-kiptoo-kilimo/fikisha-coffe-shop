@@ -1,6 +1,10 @@
-.mat-mdc-unelevated-button.mat-unthemed {
-  --mdc-filled-button-container-color: #0E8784;
-  --mdc-filled-button-label-text-color: #FEFCF7;
+.btn{
+  padding-left: 60px;
+ 
+}
+.Create-plan{
+ background-color: #0E8784;
+  color: #FEFCF7;
   width: 217px;
   height: 56px;
   flex-shrink: 0;
@@ -11,9 +15,10 @@
   font-style: normal;
   font-weight: 900;
   line-height: 25px;
+  border-radius: 6px;
 }
 
-.mat-mdc-unelevated-button.mat-unthemed:hover {
-  --mdc-filled-button-container-color: #66D2CF;
-  --mdc-filled-button-label-text-color: #FEFCF7;
+.Create-plan:hover {
+ background-color: #66D2CF;
+ color: #FEFCF7;
 }
