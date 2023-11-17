@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('../../../assets/subscribe/image-hero-blackcup.jpg');
+  background-image: url('../../../assets/images/image-hero-blackcup.jpg');
   margin-bottom: 200px;
 }
 
@@ -238,65 +238,6 @@
   margin: auto 0;
 }
 
-.container_right .mat-expansion-panel .container {
-  --mat-standard-button-toggle-text-color: #333D4B;
-  --mat-standard-button-toggle-background-color: #F4F1EB;
-  --mat-standard-button-toggle-divider-color: none;
-  --mat-standard-button-toggle-selected-state-background-color: #0E8784;
-  --mat-standard-button-toggle-selected-state-text-color: #ffffff;
-}
-
-.container_right .mat-expansion-panel .container:hover {
-  background-color: #FDD6BA;
-}
-
-.container_right .mat-expansion-panel mat-button-toggle {
-  margin-right: 28px;
-  width: 228px;
-  height: 250px;
-  color: #333D4B;
-  font-family: Fraunces;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 32px;
-}
-
-.container_right .mat-expansion-panel mat-button-toggle:hover {
-  background-color: transparent;
-}
-
-.container_right .mat-expansion-panel mat-button-toggle .vala {
-  width: 228px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 15px;
-  margin-top: 25px;
-}
-
-.container_right .mat-expansion-panel mat-button-toggle .vala h2 {
-  text-align: start;
-  color: #333D4B;
-  font-family: Fraunces;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 32px;
-}
-
-.container_right .mat-expansion-panel mat-button-toggle .vala p {
-  text-wrap: wrap;
-  text-align: left;
-  width: 172px;
-  color: #333D4B;
-  font-family: Barlow;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-}
-
 @media (max-width: 1300px) {
   .box2 .container_left {
     display: none;
@@ -305,15 +246,13 @@
   .box2 .container_right .mat-expansion-panel {
     width: 730px;
     margin: 0 auto;
-    mat-button-toggle {
-      width: 200px;
-    }
+  
   }
 }
 
 @media (max-width:768px) {
   .banner {
-    background-image: url('../../../assets/subscribe/tablet/image-hero-blackcup.jpg');
+    background-image: url('../../../assets/images/image-hero-blackcup.jpg');
     background-repeat: no-repeat;
     background-size: 689px 450px;
   }
@@ -380,39 +319,6 @@
     max-width: 100%;
   }
 
-  .box2 .container_right .mat-expansion-panel {
-    width: 689px;
-    max-width: 100%;
-    font-size: 3vw;
-    .container {
-      width: 689px;
-      max-width: 100%;
-      .button_toggle_group {
-        width: 689px;
-        max-width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4px;
-        mat-button-toggle {
-          width: 180px;
-          max-width: 100%;
-          .vala {
-            width: 170px;
-            max-width: 100%;
-            text-wrap: wrap;
-            margin-left: 5px;
-            h2 {
-              width: 160px;
-            }
-            p {
-              width: 160px;
-            }
-          }
-        }
-      }
-    }
-  }
-
   .box3 .container_box3 {
     width: 689px;
     max-width: 100%;
@@ -422,7 +328,7 @@
 
 @media (max-width:376px) {
   .banner {
-    background-image: url('../../../assets/subscribe/mobile/image-hero-blackcup.jpg');
+    background-image: url('../../../assets/images/image-hero-blackcup.jpg');
     background-repeat: no-repeat;
     background-size: 364px 453px;
   }
@@ -442,33 +348,6 @@
     margin: 0 auto;
   }
 
-  .box1 {
-    .wrapper_infos {
-      .info {
-        .top {
-          display: none;
-        }
-        h2 {
-          text-align: center;
-          margin: 0;
-          margin-top: 25px;
-        }
-        h3 {
-          width: 327px;
-          text-align: center;
-          font-size: 28px;
-          line-height: 32px;
-        }
-        h4 {
-          width: 223px;
-          text-align: center;
-          font-size: 15px;
-          line-height: 25px;
-          margin-bottom: 25px;
-        }
-      }
-    }
-  }
 
  
 }

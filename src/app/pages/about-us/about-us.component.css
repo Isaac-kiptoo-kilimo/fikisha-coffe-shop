@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('../../../assets/about/image-hero-whitecup.jpg');
+  background-image: url('../../../assets/images/image-hero-whitecup.jpg');
 }
 
 .banner .title {
@@ -198,7 +198,7 @@
   }
 
   .wrapper .box2 img {
-    content: url('../../../assets/about/tablet/image-quality.jpg');
+    content: url('../../../assets/images/image-quality.jpg');
     position: relative;
     margin-left: 30px;
     max-width: 80%;
@@ -232,7 +232,7 @@
     height: 400px;
     background-repeat: no-repeat;
     background-size: 689px 400px;
-    background-image: url('../../../assets/about/tablet/image-hero-whitecup.jpg');
+    background-image: url('../../../assets/images/image-hero-whitecup.jpg');
   }
 
   .banner .title {
@@ -254,7 +254,7 @@
   }
 
   .wrapper .box1 img {
-    content: url('../../../assets/about/tablet/image-commitment.jpg');
+    content: url('../../../assets/images/image-commitment.jpg');
   }
 
   .wrapper .box1 .text_box1 h2 {
@@ -332,7 +332,7 @@
 
 @media (max-width: 376px) {
   .banner {
-    background-image: url('../../../assets/about/mobile/image-hero-whitecup.jpg');
+    background-image: url('../../../assets/images/image-hero-whitecup.jpg');
     background-repeat: no-repeat;
     background-size: 340px 400px;
   }
@@ -357,7 +357,7 @@
   }
 
   .wrapper .box1 img {
-    content: url('../../../assets/about/mobile/image-commitment.jpg');
+    content: url('../../../assets/images/image-commitment.jpg');
     width: 340px;
     max-width: 100%;
   }
@@ -391,7 +391,7 @@
   }
 
   .wrapper .box2 img {
-    content: url('../../../assets/about/mobile/image-quality.jpg');
+    content: url('../../../assets/images/image-quality.jpg');
     width: 279px;
     height: 156px;
     flex-shrink: 0;
