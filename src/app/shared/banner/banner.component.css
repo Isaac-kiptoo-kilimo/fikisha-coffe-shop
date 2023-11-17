@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-image: url('../../../assets/home/image-hero-coffeepress.jpg');
+  background-image: url('../../../assets/images/image-hero-coffeepress.jpg');
 }
 
 .banner .title {
@@ -40,7 +40,7 @@
 
 @media (max-width:768px) {
   .banner {
-    background-image: url('../../../assets/home/tablet/image-hero-coffeepress.jpg');
+    background-image: url('../../../assets/images/image-hero-coffeepress.jpg');
     background-repeat: no-repeat;
     background-size: 689px 500px;
     width: 689px;
@@ -64,7 +64,7 @@
   .banner {
     width: 327px;
     height: 500px;
-    background-image: url('../../../assets/home/mobile/image-hero-coffeepress.jpg');
+    background-image: url('../../../assets/images/image-hero-coffeepress.jpg');
     background-repeat: no-repeat;
     background-size: 327px 500px;
   }
